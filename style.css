@@ -2,6 +2,7 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 /* crate a notes icon style */
 .create-notes{
@@ -70,6 +71,25 @@
     border-radius: 5px;
 }
 .btn-clear{
-    background: #b8b6b642;
-    color: rgb(53, 52, 52);
+    background: rgba(138, 138, 138, 0.396);
+}
+
+/* nav css design */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    min-height: 70px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.theme i{
+    padding: 10px;
+    font-size: 1.2rem;
+    background-color: #8c8c8c69;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.theme i:hover{
+    background-color: #51515187;
 }
