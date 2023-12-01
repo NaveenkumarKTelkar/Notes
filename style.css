@@ -93,3 +93,9 @@ nav{
 .theme i:hover{
     background-color: #51515187;
 }
+
+.notes-card{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
